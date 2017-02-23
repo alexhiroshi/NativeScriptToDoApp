@@ -1,0 +1,7 @@
+**/*.js
+**/*.map
+**/*.aot.ts
+node_modules
+.vscode
+hooks
+platforms

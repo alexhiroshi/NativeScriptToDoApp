@@ -1,0 +1,13 @@
+<ActionBar title="ToDo List" class="action-bar">
+  <ActionItem (tap)="addItem()" text="Add" ios.systemIcon="4" ios.position="right" android.position="popup"></ActionItem>
+</ActionBar>
+
+<StackLayout class="page">
+  <ListView [items]="todoList" class="list-group">
+      <template let-item="item">
+        <StackLayout [nsRouterLink]="['/detail', item.id]">
+          <Label [text]="item.title" class="list-group-item todo-title"></Label>
+        </StackLayout>
+      </template>
+  </ListView>
+</StackLayout>
