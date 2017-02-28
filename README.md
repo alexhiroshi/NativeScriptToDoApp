@@ -8,3 +8,8 @@ Estrutura base do aplicativo [http://alexhiroshi.com.br/nativescript-todo-app-es
 * Componentes
 * Serviços
 * Navegação com parâmetro
+
+### 02-botoes-acoes
+Adicionado elementos visuais [http://alexhiroshi.com.br/nativescript-todo-app-botoes-e-acoes](http://alexhiroshi.com.br/nativescript-todo-app-botoes-e-acoes)
+* Floating button no Android
+* Swipe para atualizar status
