@@ -1,0 +1,14 @@
+<ActionBar title="Adicionar" icon="" class="action-bar">
+  <NavigationButton text="Back" android.systemIcon="ic_menu_back" (tap)="onBack()"></NavigationButton>
+</ActionBar>
+<ScrollView>
+    <StackLayout class="p-20 form">
+        <Label text="Título"></Label>
+        <TextField hint="Título da tarefa" [(ngModel)]="todoItem.title"></TextField>
+        
+        <Label text="Descrição"></Label>
+        <TextField [(ngModel)]="todoItem.description" VerticalScrollBarVisibility="Visible" AcceptsReturn="True" TextWrapping="Wrap" hint="Descrição/observação da tarefa"></TextField>
+        
+        <Button text="Salvar" class="btn btn-primary btn-orange" (tap)="Add()"></Button>       
+    </StackLayout>
+</ScrollView>
