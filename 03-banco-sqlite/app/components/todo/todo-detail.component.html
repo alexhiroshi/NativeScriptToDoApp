@@ -1,0 +1,10 @@
+<ActionBar title="Detalhe" icon="" class="action-bar">
+  <NavigationButton text="Back" android.systemIcon="ic_menu_back" (tap)="onBack()"></NavigationButton>
+  <ActionItem (tap)="deleteItem()" ios.systemIcon="16" ios.position="right" text="Delete" android.position="popup"></ActionItem>
+</ActionBar>
+<ScrollView>
+    <StackLayout class="p-20">
+        <Label [text]="todoItem.title" class="h1"></Label>
+        <Label [text]="todoItem.description" class="h2"></Label>
+    </StackLayout>
+</ScrollView>
