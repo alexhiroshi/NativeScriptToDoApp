@@ -13,3 +13,8 @@ Estrutura base do aplicativo [http://alexhiroshi.com.br/nativescript-todo-app-es
 Adicionado elementos visuais [http://alexhiroshi.com.br/nativescript-todo-app-botoes-e-acoes](http://alexhiroshi.com.br/nativescript-todo-app-botoes-e-acoes)
 * Floating button no Android
 * Swipe para atualizar status
+
+### 03-banco-sqlite
+Implementação final com banco de dados Sqlite [http://alexhiroshi.com.br/nativescript-todo-app-acesso-ao-banco-de-dados-sqlite](http://alexhiroshi.com.br/nativescript-todo-app-acesso-ao-banco-de-dados-sqlite)
+* Banco de dados Sqlite
+* Select / Insert / Update / Delete
